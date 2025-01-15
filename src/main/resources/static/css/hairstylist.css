@@ -1,0 +1,93 @@
+
+header{
+
+    width: 100%;
+    height:30vh;
+    background-image:  linear-gradient(rgba(228, 217, 220, 0.9), rgba(228, 217, 220, 0.9), rgba(228, 217, 220, 0.9), rgba(228, 217, 220, 0.9) , rgba(228, 217, 220, 0.9)),url("mma whatwhat.jpg");
+    background-position: center;
+    background-size: cover;
+
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    padding-top: 50px;
+    backdrop-filter: blur(10px);
+    
+
+}
+
+nav img{
+    height: 2cm;
+}
+
+.list_them{
+    background-color: rgba(228, 217, 220, 0.7);
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+footer{
+    margin-top: 2cm;
+    height: 2cm;
+    background-color: #4F4F51;
+    display: flex;
+    align-items: center;
+    color: #D6D6D6;
+}
+
+.hairstylist_box{
+    width: 60%;
+    height: 200px;
+    background-color: white;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 1px 1px 2px 3px rgb(210, 210, 210);
+    transition: 0.5s;
+
+}
+
+.hairstylist_box:hover{
+
+    border: 1px solid black;
+}
+
+.star_rating_yellow{
+    color: yellow;
+    font-size: 30px
+}
+
+.star_rating_black{
+    color: black;
+    font-size: 30px
+}
+
+#topic{
+    text-align: center;
+    background-color: transparent;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: arkitek;
+}
+
+#stylist_pic{
+    height: 95%;
+}
+
+.more_info{
+    height: 7cm;
+    width: 5cm;
+    border-radius: 10px;
+    background-color: red;
+    position: relative;
+    margin-top: 10px;
+    left: 50%;
+    bottom: 50px;
+    visibility: hidden;
+            
+}
+
+.wer{
+    visibility: visible;
+}
+

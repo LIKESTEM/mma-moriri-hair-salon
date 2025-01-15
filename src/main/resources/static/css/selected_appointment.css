@@ -1,0 +1,49 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 13 Apr 2024, 3:16:43 PM
+    Author     : thobi
+*/
+
+header{
+
+    width: 100%;
+    height:30vh;
+    background-image:  linear-gradient(rgba(228, 217, 220, 0.9), rgba(228, 217, 220, 0.9), rgba(228, 217, 220, 0.9), rgba(228, 217, 220, 0.9) , rgba(228, 217, 220, 0.9)),url("mma whatwhat.jpg");
+    background-position: center;
+    background-size: cover;
+
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    padding-top: 50px;
+    backdrop-filter: blur(10px);
+    
+
+}
+
+.info_line{
+    margin-bottom: 10px;
+}
+
+.contain_pdf{
+    padding: 20px;
+}
+
+.cancel{
+    background-color: red;
+}
+
+.approve{
+    background-color: green;
+}
+
+footer{
+    margin-top: 2cm;
+    height: 2cm;
+    background-color: #4F4F51;
+    color: #D6D6D6;
+}
+

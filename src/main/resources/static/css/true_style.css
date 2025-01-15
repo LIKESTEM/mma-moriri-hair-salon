@@ -1,0 +1,287 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 14 Apr 2024, 2:45:00 PM
+    Author     : thobi
+*/
+
+html{
+    scroll-behavior: smooth;
+}
+
+.boudary{
+
+    width: 80%;
+    height: auto;
+    background-color: transparent;
+    margin: auto;
+
+    
+
+}
+
+header{
+
+    width: 100%;
+    height:90vh;
+    background-image:  linear-gradient(rgba(28, 28, 28, 0.9), rgba(28, 28, 28, 0.7), rgba(28, 28, 28, 0.1), rgba(28, 28, 28, 0.7) , rgba(28, 28, 28, 0.9)),url("images/bgred.png");
+    background-position: center;
+    background-size: cover;
+
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    padding-top: 50px;
+    backdrop-filter: blur(10px);
+     
+
+}
+
+.make_appointment{
+
+background-color: #F58F7C;
+color: aliceblue;
+margin: auto;
+
+}
+
+nav img{
+    height: 2cm;
+}
+
+nav ul{
+
+    
+    list-style: none;
+
+
+}
+
+nav ul li{
+
+    display: inline;
+    margin-left: 50px;
+
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+nav{
+
+    display: flex;
+    justify-content: space-between;
+
+    
+
+}
+
+.recruit{
+
+    margin-top: 200px;
+    width: 80%;
+    height: 4cm;
+    background-color: #d6d6d6;
+    border-radius: 10px;
+
+}
+
+.recruit h4{
+
+    text-align: center;
+    color: #4F4F51;
+
+}
+
+.button-style-it{
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.slide{
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+}
+
+.section2{
+    background-color: #eadde0;
+    height: 100%;
+    border-radius: 50px;
+    
+ 
+}
+
+.slide h1{
+
+    text-align: center;
+    background-color: transparent;
+    padding-top: 20px;
+    padding-bottom: 220px;
+    color: #F2C4CE;
+
+}
+
+.about{
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+}
+
+.section3{
+    background-color: #eadde0;
+    height: 100%;
+    border-radius: 50px;
+   
+}
+
+.about h1{
+
+    padding-top: 120px;
+    text-align: center;
+    background-color: transparent;
+    padding-bottom: 20px;
+    color: #F2C4CE;
+
+}
+
+.contact{
+    width: 100%;
+    height: auto;
+}
+
+.section4{
+
+    background-color: #eadde0;
+    height: 100%;
+    border-radius: 50px;
+
+}
+
+.contact h1{
+
+    padding-top: 50px;
+    text-align: center;
+    background-color: transparent;
+    color: #F2C4CE;
+
+}
+
+.text_in_about{
+    
+    width: 80%;
+    
+}
+
+.picture_in_about{
+
+    padding-top: 1cm;
+    width: 80%;
+
+}
+
+main{
+    background-color: white;
+}
+
+.contact_info{
+    background-color: transparent;
+}
+
+.contact_map{
+    background-color: #F58F7C;
+}
+
+.contact_details{
+    width: 80%;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+
+footer{
+    margin-top: 2cm;
+    height: 2cm;
+    background-color: #4F4F51;
+}
+
+#pic_in_about_1{
+    border-radius: 50%;
+}
+
+.slide_show_here{
+
+    height: 15cm;
+    width: 80%;
+    background-color: #4F4F51;
+    transform: translateY(-200px);
+    border-radius: 10px;
+    
+
+}
+
+.box_ad_1{
+
+height: 90%;
+width: 90%;
+border-radius: 20px;
+box-shadow: 2px 2px 5px 3px rgb(138, 138, 138);
+background-color: white;
+border: 1px solid rgb(90, 89, 89);
+
+
+}
+
+.box_holder{
+    margin-top: 2cm;
+    height: 10cm;
+    width: 100%;
+    transform: translateY(-200px);
+}
+
+.slideshow {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    height: 100%;
+}
+
+.slide {
+    min-width: 100%;
+    height: 100%;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#mmamoriri_heading{
+
+    margin-top: 20px;
+    margin-top: 60px;
+
+}
+
+@media only screen and (max-width: 1000px) {
+
+    #mmamoriri_heading{font-size: 15px;};
+    #pic_in_about_1{height: 150px; width: 150px;};
+    .slide_show_here{height: 2cm};
+
+  }
+
